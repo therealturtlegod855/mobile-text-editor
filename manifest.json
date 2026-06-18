@@ -1,0 +1,49 @@
+{
+  "name": "Text Editor",
+  "short_name": "Editor",
+  "description": "Offline-capable mobile and desktop text editor",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "text/*": [".txt", ".text"],
+        "text/x-java-source": [".java"],
+        "text/x-python": [".py"],
+        "text/x-shellscript": [".sh", ".bash"],
+        "application/x-bat": [".bat", ".cmd"],
+        "text/x-c": [".c", ".h"],
+        "text/x-c++": [".cpp", ".hpp"],
+        "application/json": [".json"],
+        "text/html": [".html"],
+        "text/javascript": [".js"],
+        "text/css": [".css"]
+      }
+    }
+  ]
+}
